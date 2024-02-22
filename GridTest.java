@@ -18,6 +18,6 @@ public class GridTest {
     @Test
     public void testTotalConnections() {
         int[][] matrix = new Grid(10, 10).getGraph().getMatrix();
-        assertEquals(40, GridVerifier.countTotalConnections(matrix));
+        assertEquals(180, GridVerifier.countTotalConnections(matrix));
     }
 }
